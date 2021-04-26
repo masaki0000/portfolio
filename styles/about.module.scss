@@ -1,0 +1,18 @@
+.container {
+  background-color: rgba(255, 255, 255, 0.6);
+
+  .image {
+    height: 100px;
+    width: 400px;
+    position: relative;
+  }
+}
+
+// スマホサイズ以下レスポンシブ
+@media screen and (max-width: 639px) {
+  .container {
+    .image {
+      width: 100%;
+    }
+  }
+}

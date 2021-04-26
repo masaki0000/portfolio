@@ -1,0 +1,61 @@
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  height: 60px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+  padding: 0;
+  
+
+  .header_title_wrapper {
+    width: 100%;
+    position: relative;
+    
+    .header_title {
+      display: block;
+      margin: 0 0 0 10px;
+      padding: 0;
+      line-height: 60px;
+      position: absolute;
+      left: 0;
+      
+      a {
+        color: #000;
+        font-style:oblique;
+        font-family: Helvetica, sans-serif;
+        font-size: 200%;
+        
+        &:hover {
+          text-decoration: none;
+        }
+      }
+  
+    }
+  }
+}
+// タブレットサイズ以下レスポンシブ
+@media screen and (max-width: 1024px) {
+  .header {
+    .header_title_wrapper {
+      .header_title {
+        a {
+          font-size: 150%;
+        }
+      }
+    }
+  }
+}
+
+// スマホサイズ以下レスポンシブ
+@media screen and (max-width: 639px) {
+  .header {
+    height: 80px;
+    .header_title_wrapper {
+      .header_title {
+        line-height: 80px;
+      }
+    }
+  }
+}

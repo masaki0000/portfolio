@@ -1,0 +1,67 @@
+// skill.tsx
+.skill_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+// skill_card.tsx
+.container {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.skill_card {
+  min-height: 150px;
+  width: 22%;
+  margin: 5px 5px 20px 5px;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  background-color: #fff;
+  white-space: pre-wrap;
+
+  &_img {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+  }
+
+  &_text {
+    text-align: center;
+    font-weight: bold;
+    &_name {
+      margin-bottom: 0;
+    }
+    &_text {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+}
+
+// タブレットサイズ以下レスポンシブ
+@media screen and (max-width: 1300px) {
+  .skill_card {
+    &_text {
+      font-size: 90%;
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .skill_card {
+    width: 30%;
+  }
+}
+// スマホサイズ以下レスポンシブ
+@media screen and (max-width: 639px) {
+  .skill_card {
+    width: 45%;
+    &_text {
+      font-size: 80%;
+      &_text {
+        font-size: 90%;
+      }
+    }
+  }
+}

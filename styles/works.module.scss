@@ -1,0 +1,85 @@
+// works.tsx
+.container {
+  background-color: rgba(255, 255, 255, 0.6);
+
+  .works_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+
+// works_card.tsx
+
+
+.works_card {
+  min-height: 150px;
+  width: 40%;
+  margin: 5px 2% 50px 2%;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  background-color: #fff;
+
+  &_name {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  &_img {
+    height: 200px;
+    max-width: 80%;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  &_text {
+    text-align: center;
+    white-space: pre-wrap;
+    
+    &_lang {
+      background-color: lightgray;
+    }
+  }
+
+  .button {
+    display: block;
+    height: 60px;
+    width: 80%;
+    margin: 20px auto;
+    position: relative;
+    top: 0;
+    line-height: 60px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(208, 255, 208);
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px #181818b7;
+    cursor: pointer;
+
+
+    &:hover {
+      background-color: rgb(139, 168, 139);
+    }
+    &:active {
+      top: 4px;
+      box-shadow: 1px 1px 1px 1px #181818b7;
+    }
+  }
+}
+
+
+// タブレットサイズ以下レスポンシブ
+@media screen and (max-width: 1024px) {
+  .works_card {
+    width: 100%;
+  }
+}
+// スマホサイズ以下レスポンシブ
+@media screen and (max-width: 639px) {
+  .works_card {
+    width: 100%;
+  }
+}
