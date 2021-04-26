@@ -28,22 +28,22 @@ const HeaderMenu = () => {
           <div className={`${style.hmc} ${isMenuOpen ? style.hmc_o : null }`}>
             <ul>
               <li  onClick={() => clickMenuContent()}>
-                <a href='#'>
+                <a href='/#'>
                   ABOUT
                 </a>
               </li>
               <li  onClick={() => clickMenuContent()}>
-                <a href='#skill'>
+                <a href='/#skill'>
                   SKILL
                 </a>
               </li>
               <li  onClick={() => clickMenuContent()}>
-                <a href='#works'>
+                <a href='/#works'>
                   WORKS
                 </a>
               </li>
               <li  onClick={() => clickMenuContent()}>
-                <a href='#contact'>
+                <a href='/#contact'>
                   CONTACT
                 </a>
               </li>

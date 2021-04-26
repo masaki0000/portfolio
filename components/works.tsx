@@ -32,7 +32,8 @@ export const worksList = [
     lang: 'HTML / CSS / React.js / Next.js',
     mini_desc: `今表示しているポートフォリオサイトです。`,
     desc: '今表示しているポートフォリオサイトです。\nReact,Next.jsを利用して作成しました。\n' + 
-          '当初SPA(Single Page Application)で制作しましたが、ブログサイトの制作後にSSG（Static Site Generator）で作り変えました。'
+          '当初SPA(Single Page Application)で制作しましたが、ブログサイトの制作後にSSG（Static Site Generator）で作り変えました。\n' + 
+          '制作物の詳細ページはgetStaticPathsを利用した動的ページ生成を行っています。'
   },
   {
     id: 'tanksblog',
@@ -40,7 +41,8 @@ export const worksList = [
     image: `works2.png`,
     lang: 'HTML / CSS / React.js / Next.js',
     mini_desc: `ブログサイトです。`,
-    desc: '個人用のブログサイトです。 \nSSG（Static Site Generator）で制作しました。\n' +
+    desc: '個人用のブログサイトです。 \nReact,Next.jsを利用して作成しました。\n' + 
+          'SSG（Static Site Generator）を利用しており、ブログの詳細ページはgetStaticPathsを利用した動的ページ生成を行っています。\n' +
           '特定ディレクトリ下のMarkdownファイルを読み取り、ブログページを生成しています。\n' +
           '初めてNext.jsを利用して制作したWebアプリケーションです。\n' +
           '\nプログラミングを学習する中で詰まった事や、自分の趣味に関する事を書き溜める目的で制作しました。'

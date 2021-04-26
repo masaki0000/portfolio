@@ -19,7 +19,7 @@ const HeaderTab = () => {
                 alt="blog_img"
               />
             </div>
-            <a href='#'>ABOUT</a>
+            <a href='/#'>ABOUT</a>
           </div>
       </div>
       
@@ -33,7 +33,7 @@ const HeaderTab = () => {
                 alt="blog_img"
               />
             </div>
-            <a href='#skill'>SKILL</a>
+            <a href='/#skill'>SKILL</a>
           </div>
       </div>
   
@@ -47,7 +47,7 @@ const HeaderTab = () => {
                 alt="blog_img"
               />
             </div>
-            <a href='#works'>WORKS</a>
+            <a href='/#works'>WORKS</a>
           </div>
       </div>
       
@@ -61,7 +61,7 @@ const HeaderTab = () => {
                 alt="blog_img"
               />
             </div>
-            <a href='#contact'>CONTACT</a>
+            <a href='/#contact'>CONTACT</a>
           </div>
       </div>
       
