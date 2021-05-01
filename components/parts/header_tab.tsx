@@ -14,9 +14,7 @@ const HeaderTab = () => {
                 src={`/images/about_icon.svg`}
                 height={24}
                 width={24}
-                // layout='fill'
-                // objectFit='contain'
-                alt="blog_img"
+                alt="header_tab_img"
               />
             </div>
             <a href='/#'>ABOUT</a>
@@ -30,7 +28,7 @@ const HeaderTab = () => {
                 src={`/images/skill_icon.svg`}
                 height={24}
                 width={24}
-                alt="blog_img"
+                alt="header_tab_img"
               />
             </div>
             <a href='/#skill'>SKILL</a>
@@ -44,7 +42,7 @@ const HeaderTab = () => {
                 src={`/images/works_icon.svg`}
                 height={24}
                 width={24}
-                alt="blog_img"
+                alt="header_tab_img"
               />
             </div>
             <a href='/#works'>WORKS</a>
@@ -58,7 +56,7 @@ const HeaderTab = () => {
                 src={`/images/contact_icon.svg`}
                 height={24}
                 width={24}
-                alt="blog_img"
+                alt="header_tab_img"
               />
             </div>
             <a href='/#contact'>CONTACT</a>

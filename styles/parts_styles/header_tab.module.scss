@@ -59,6 +59,10 @@
     width: 65%;
     .link {
       &_inner {
+        .img {
+          padding-right: 5px;
+        }
+
         a {
           font-size: 100%;
         }
