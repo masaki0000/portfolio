@@ -34,7 +34,7 @@ export default function Layout({
         
         <meta
           property="og:image"
-          content={"/images/big_theme.png"}
+          content={"https://portfolio-eosin-two.vercel.app/images/theme.png"}
         />
       </Head>
 
